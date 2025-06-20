@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        var scanner = new Scanner(System.in);
+        System.out.println("Informe a base do Retângulo:");
+        var base = scanner.nextFloat();
+        System.out.println("Informe a altura do Retângulo:");
+        var height = scanner.nextFloat();
+        var area = base * height;
+        System.out.printf("Seu Retângulo tem uma área de %s", area);
+    }
+}
