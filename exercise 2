@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        var scanner = new Scanner(System.in);
+        System.out.println("Informe um lado do quadrado:");
+        var side = scanner.nextFloat();
+        var area = Math.pow(side, 2);
+        System.out.printf("Seu quadrado tem uma área de %s", area);
+    }
+}
